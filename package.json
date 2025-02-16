@@ -1,0 +1,26 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-livereload": "^0.6.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "livereload": "^0.9.3",
+    "mongoose": "^8.10.1",
+    "multer": "^1.4.5-lts.1",
+    "multipart": "^0.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
